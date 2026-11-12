@@ -5,8 +5,18 @@ public class Actividad14 {
         String producto = "Agenda";
         double precioUnitario = 12.5;
         int cantidad = 3;
-        double impuesto = 0.21;
+        double porcentajeIva = 0.21;
 
-        // TODO: calcula subtotal, impuesto aplicado y total.
+        double subtotal = precioUnitario * cantidad;
+        double impuesto = subtotal * porcentajeIva;
+        double total = subtotal + impuesto;
+
+        System.out.println("Producto: " + producto);
+        System.out.println("Subtotal: " + subtotal);
+        System.out.println("Impuesto: " + impuesto);
+        System.out.println("Total: " + total);
     }
 }
+
+
+        // TODO: calcula subtotal, impuesto aplicado y total.
