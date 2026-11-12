@@ -8,5 +8,17 @@ public class Actividad14 {
         double impuesto = 0.21;
 
         // TODO: calcula subtotal, impuesto aplicado y total.
+        
+        double subtotal;
+        subtotal = precioUnitario * cantidad;
+        double Timp;
+        Timp = subtotal * impuesto;
+        double Total;
+        Total = subtotal + Timp;
+        
+        System.out.println("Producto: " + producto);
+        System.out.println("Subtotal: " + subtotal);
+        System.out.println("Impuesto: " + Timp);
+        System.out.println("Total: " + Total);
     }
 }
