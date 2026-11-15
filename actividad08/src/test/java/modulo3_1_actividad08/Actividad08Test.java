@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 
 public class Actividad08Test {
 
-    private static final String SALIDA_ESPERADA = "Mascota: Milo\nEspecie: perro\nEdad: 4\nPeso: 12.5 kg";
+    private static final String SALIDA_ESPERADA = "Mascota: Milo\nEspecie: perro\nEdad: 4\nPeso: 12.5 Kg";
 
     private static final Pattern NUMERO = Pattern.compile("-?\\d+(?:[.,]\\d+)?");
 
